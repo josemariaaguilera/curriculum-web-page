@@ -80,10 +80,25 @@ p.lead {
 }
 
 
-  i{
-    &.fab{
-      img{
-        width:35px;
-      }
+i{
+  &.fab{
+    img{
+      width:35px;
     }
   }
+}
+
+footer{
+  background: darken($primary,42%);
+  width:100%;
+  text-align: center;
+  padding:20px;
+
+  i{
+    font-size:30px;
+    margin-right: 10px;
+    vertical-align: middle;
+    color:$primary;
+
+  }
+}
