@@ -93,11 +93,23 @@ footer{
   text-align: center;
   padding-top:20px;
   padding-bottom:10px;
+  color: $gray-500;
+
   i{
     font-size:30px;
     margin-right: 10px;
     vertical-align: middle;
-    color:$primary;
+
+  }
+
+  a{
+    color: lighten($primary, 15%);
+    &:visited{
+      color: lighten($primary, 8%);
+    }
+    &:hover{
+      color: lighten($primary, 8%);
+    }
   }
 
   div{
