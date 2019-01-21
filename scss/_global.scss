@@ -79,7 +79,6 @@ p.lead {
   }
 }
 
-
 i{
   &.fab{
     img{
@@ -92,13 +91,16 @@ footer{
   background: darken($primary,42%);
   width:100%;
   text-align: center;
-  padding:20px;
-
+  padding-top:20px;
+  padding-bottom:10px;
   i{
     font-size:30px;
     margin-right: 10px;
     vertical-align: middle;
     color:$primary;
+  }
 
+  div{
+    margin-top:10px;
   }
 }
