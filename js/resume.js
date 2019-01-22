@@ -35,5 +35,11 @@
             console.log('error loading ' + element.data('src'));
         }
     });
-    
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-132932187-1');
+
 })(jQuery); // End of use strict
